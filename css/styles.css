@@ -27,6 +27,17 @@ a {
 }
 
 /* ===== Header ====*/
+header nav{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.container-fluid{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/*
 header {
     background-color: white;
     color: black;
@@ -88,6 +99,7 @@ header ul li {
     }
 }
 
+*/
 /* termina el header*/
 
 /* PORTAFOLIO*/
@@ -101,7 +113,8 @@ header ul li {
 
 }
 .titulo--inicio, .titulo--productos, .titulo--equipo{
-    font-size:2.5vh;
+    padding: 1.5rem;
+    font-size:2rem;
     text-align: center;
 }
 
