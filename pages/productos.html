@@ -6,128 +6,373 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/3895c55056.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    
+
 </head>
 
 
 
 <body>
     <header>
-        <div class="barra de navegacion">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./portafolio.html">Portafolio</a></li>
-                <li><a href="./equipo.html">Equipo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-    
-            </ul>
-            <h1> GAIA</h1>
-            <hr>
-    
+        <div>
+            <h1>GAIA</h1>
         </div>
-    
+        <div>
+            <form action="">
+                <input type="search" placeholder="Buscar...">
+                <button>Buscar</button>
+            </form>
+        </div>
+
+        <nav>
+            <ul class="barra-de-navegacion">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/portafolio.html">Portafolio</a></li>
+                <li><a href="./pages/equipo.html">Equipo</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+
     </header>
 
-    <section class="Productos">
-        <div class="titutlo--productos">
-            <h2> Productos </h2>
+    <main>
+        <div class="titulo--productos">
+            <h2>Productos</h2>
+        </div>
+      
+        <section class="productos">
+
+            <!--Producto 1 LABIAL LOVE-->
+            <div class="producto">
+                <div id="conteItemsCarrusel">
+                    <div class="itemCarrusel" id="itemCarrusel1-1">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                            <img  src="/imagenes/labiales.jpg" alt="">
+                        </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel1-3">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrusel1-2">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="itemCarrusel" id="itemCarrusel1-2">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                            <img src="/imagenes/labiales2.0.jpg" alt="">
+                        </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel1-1">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrusel1-3">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrusel" id="itemCarrusel1-3">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                            C
+                        </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel1-2">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrusel1-1">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descr">
+                    <h3> Labial Love</h3>
+                    <p>60$</p>
+                    <button class="boton">
+                        Comprar
+                    </button>
+                </div>
+
+            </div>
+            <!--Producto 2 GLOSS-->
+
+            <div class="producto">
+                <div id="conteItemsCarrusel">
+                    <div class="itemCarrusel" id="itemCarrusel2-1">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                            <img src="/imagenes/gloss_2.jpg" alt="">
+                        </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel2-3">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrusel2-2">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="itemCarrusel" id="itemCarrusel2-2">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                            <img src="/imagenes/gloss_1.jpg" alt="">
+                        </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel2-1">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrusel2-3">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrusel" id="itemCarrusel2-3">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                            C
+                        </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel2-2">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrusel2-1">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descr">
+                    <h3> Gloss Hera</h3>
+                    <p>200$</p>
+                    <button class="boton">
+                        Comprar
+                    </button>
+                </div>
+            </div>
+        <!--Producto 3 RIMMEL VENUS-->
+        <div class="producto">
+            <div id="conteItemsCarrusel">
+                <div class="itemCarrusel" id="itemCarrusel3-1">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        <img src="/imagenes/rimmel3.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel3-3">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel3-2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel3-2">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        <img src="/imagenes/rimmel1.0.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel3-1">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel3-3">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel3-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        <img src="/imagenes/rimmel2.0.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel3-2">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel3-1">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="descr">
+                <h3>Rimmel Venus</h3>
+                <p>180$</p>
+                <button class="boton">
+                    Comprar
+                </button>
+            </div>
+        </div>
+        <!--Producto 4 Balsamo Atenea-->
+        <div class="producto">
+            <div id="conteItemsCarrusel">
+                <div class="itemCarrusel" id="itemCarrusel4-1">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        <img src="/imagenes/labial1.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel4-3">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel4-2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel4-2">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        <img src="/imagenes/labial.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel4-1">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel4-3">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel4-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        <img src="/imagenes/labial2.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel4-2">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel4-1">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="descr">
+                <h3> Balsamo Atenea</h3>
+                <p>100$</p>
+                <button class="boton">
+                    Comprar
+                </button>
+            </div>
         </div>
 
-        <article class="Labial Love ">
-            <h3>Labial Love</h3>
+        <!--Producto 5 CONTORNOS-->
+        <div class="producto">
+            <div id="conteItemsCarrusel">
+                <div class="itemCarrusel" id="itemCarrusel5-1">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        <img src="/imagenes/contornos1.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel5-3">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel5-2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
 
-            <div class="img--love">
-                <img src="../Img/labiales.jpg" alt="">
-                <img src="../Img/labiales2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel5-2">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        <img src="/imagenes/contornos3.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel5-1">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel5-3">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel5-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        <img src="/imagenes/contornos.jpg" alt="">
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel5-2">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel5-1">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis velit voluptates quibusdam
-                blanditiis explicabo veniam ullam natus consequatur. Modi, in? Odio placeat debitis unde et saepe ad ex
-                dignissimos praesentium.</p>
+            <div class="descr">
+                <h3> Labial</h3>
+                <p>200$</p>
+                <button class="boton">
+                    Comprar
+                </button>
+            </div>
+        </div>
+
+        <!--Producto 6-->
+        <div class="producto">
+            <div id="conteItemsCarrusel">
+                <div class="itemCarrusel" id="itemCarrusel6-1">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                        A
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel6-3">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel6-2">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel6-2">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                        B
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel6-1">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel6-3">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel6-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        C
+                    </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel6-2">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrusel6-1">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="descr">
+                <h3> Labial</h3>
+                <p>200$</p>
+                <button class="boton">
+                    Comprar
+                </button>
+            </div>
+        </div>
+
+        </section>
         
-
-        </article>
-
-        <article class="gloss">
-            <h3> Gloss Aurora </h3>
-            <div>
-                <img src="../Img/gloss_1.jpg" alt="">
-                <img src="../Img/gloss_2.jpg" alt="">
-            </div>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sapiente deleniti iste ipsa? Excepturi
-                illum nobis asperiores consequatur ipsam voluptas laudantium consequuntur, ipsum tempore iste animi
-                facere cum voluptate at?</p>
-
-        </article>
-
-        <article class="Rimmel">
-
-            <h3>Rimmel</h3>
-            <div>
-                <img src="../Img/rimmel1.jpg" alt="">
-                <img src="../Img/rimmel2.jpg" alt="">
-                <img src="../Img/rimmel_3.jpg" alt="">
-                <img src="../Img/rimmel3.jpg" alt="">
-                <img src="../Img/rimmel.jpg" alt="">
-            </div>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sapiente deleniti iste ipsa? Excepturi
-                illum nobis asperiores consequatur ipsam voluptas laudantium consequuntur, ipsum tempore iste animi
-                facere cum voluptate at?</p>
-
-
-        </article>
-
-        <article class="rubor">
-            <h3>Sombras Mia </h3>
-
-            <div>
-                <img src="../Img/rubor.jpg" alt="">
-                <img src="../Img/rubor2.jpg" alt="">
-            </div>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sapiente deleniti iste ipsa? Excepturi
-                illum nobis asperiores consequatur ipsam voluptas laudantium consequuntur, ipsum tempore iste animi
-                facere cum voluptate at?</p>
-
-
-        </article>
-
-        <article class="Base Vida">
-
-            <h3>Base Vida</h3>
-
-            <div class="imagenes">
-                <img src="../Img/chica_base.jpg" alt="">
-            </div>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sapiente deleniti iste ipsa? Excepturi
-                illum nobis asperiores consequatur ipsam voluptas laudantium consequuntur, ipsum tempore iste animi
-                facere cum voluptate at?</p>
-
-
-        </article>
-
-        <article class="contornos">
-            <h3>Contornos Jude</h3>
-            <div class="imagenes">
-                <img src="..//Img/contornos1.jpg" alt="">
-                <img src="..//Img/contornos3.jpg" alt="">
-                <img src="..//Img/contornos.jpg" alt="">
-            </div>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo sapiente deleniti iste ipsa? Excepturi
-                illum nobis asperiores consequatur ipsam voluptas laudantium consequuntur, ipsum tempore iste animi
-                facere cum voluptate at?</p>
-
-
-        </article>
-
-       
-    </section>
+          
+    </main>
 
 
 </body>

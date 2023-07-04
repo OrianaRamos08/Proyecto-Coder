@@ -92,12 +92,12 @@ header ul li {
 
 /* PORTAFOLIO*/
 
-.portafolio, .Inicio{
+.portafolio, .inicio, .productos{
     padding: 2rem;
     display: flex;
     flex-direction: column;
     place-items: center;
-    gap: 1rem;
+    gap:2rem;
 
 }
 
@@ -144,14 +144,14 @@ header ul li {
 
 /*poner que todos los titulos sean de la misma letra*/
 
-.titulo--inicio .titulo--productos{
-    font-size:4vh;
+.titulo--inicio, .titulo--productos{
+    font-size:2.5vh;
     text-align: center;
 }
 
 
 @media(min-width: 1200px) and (orientation:landscape){
-    .Inicio{
+    .inicio{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 50vh 1fr 1fr;
@@ -161,7 +161,7 @@ header ul li {
     .img--inicio{
         max-width: none;
     }
-    .Presentacion{
+    .presentacion{
         grid-column: 1/3;
         padding: 2rem;
         display: grid;
@@ -169,13 +169,135 @@ header ul li {
         gap: 2rem;
         
     }
-    .Presentacion h3{
+    .presentacion h3{
         font-size: 4vh;
         text-align: center;
     }
-    .Presentacion p {
+    .presentacion p {
         font-size: 1.5rem;
     }
     
 
 }
+
+/*PRODUCTOS*/
+
+#conteItemsCarrusel{
+    border: 1px solid rgb(160, 158, 158);
+    width: 350px;
+    height: 450px;
+    max-width: 450px;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 450px;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top:0;
+    /*va a tomar su elemento mas cercano padre*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*centrarlo con respecto al eje secundario*/
+    justify-content: space-between;
+    /*deje unos pequenos espacios en los costados*/
+    padding: 20px;
+
+}
+
+
+#tarjetaCarrusel-1{ 
+    background-color: rgb(207, 176, 236);
+}
+#tarjetaCarrusel-2{
+    background-color: rgb(250, 181, 156);
+}
+#tarjetaCarrusel-3{
+    background-color: rgb(248, 170, 74);
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;    
+}
+.descr {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.descr h3{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.descr p{
+    padding-bottom: 1.5rem;
+}
+
+.descr .boton{
+    font-size: 2rem;
+    border:  solid black;
+    background-color: rgb(255, 230, 234);
+    height: 60px;
+    width: 200px;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+
+.producto{
+    border: solid rgb(182, 178, 178);
+    padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+ 
+@media (min-width: 1200px) and (orientation:landscape) {
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 2rem;
+        place-items: center;
+    }
+    
+    #conteItemsCarrusel{
+        width: 350px;
+        height: 450px;
+        max-width: 550px;
+    }
+    .itemCarrusel{  
+        height: 450px;
+    }
+    .descr h3{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .descr p{
+        padding-bottom: 1rem;
+    }
+    
+
+    
+ 
+}
+
