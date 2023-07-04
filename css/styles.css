@@ -92,7 +92,7 @@ header ul li {
 
 /* PORTAFOLIO*/
 
-.portafolio, .inicio, .productos{
+.portafolio, .inicio, .productos, .equipo{
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -100,8 +100,13 @@ header ul li {
     gap:2rem;
 
 }
+.titulo--inicio, .titulo--productos, .titulo--equipo{
+    font-size:2.5vh;
+    text-align: center;
+}
 
-.img-port, .video-port, .img--inicio {
+
+.img-port, .video-port {
     width: 100%;
     height: 50vh;
     max-width:600px;
@@ -144,40 +149,70 @@ header ul li {
 
 /*poner que todos los titulos sean de la misma letra*/
 
-.titulo--inicio, .titulo--productos{
-    font-size:2.5vh;
-    text-align: center;
+
+.img--inicio {
+    width: 100%;
+    height: 30vh;
+    max-width: 350px;
+    border: 1px solid rgb(160, 158, 158);
 }
 
+
+@media (min-width: 768px) {
+    .inicio{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr) 15vh;
+        gap:1rem
+    }
+    .presentacion{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .presentacion h3{
+        font-size: 1.25rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .presentacion p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .img--inicio{
+        max-width: none;
+    }
+    .presentacion{
+        padding: 1.5rem;
+        border: 1px solid rgb(160, 158, 158);
+    }      
+}
 
 @media(min-width: 1200px) and (orientation:landscape){
     .inicio{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 50vh 1fr 1fr;
-        gap: 0.5rem;
-
-    }
-    .img--inicio{
-        max-width: none;
+        grid-template-rows: 1fr 40vh 1fr;
+        gap: 1rem;
     }
     .presentacion{
-        grid-column: 1/3;
-        padding: 2rem;
-        display: grid;
-        grid-template-rows: 10vh auto;
-        gap: 2rem;
+        grid-row: 2/3;
+        padding: 3rem;
+    }
+    .img--inicio{
+        height: 100%;
+        max-height: 400px;
+        max-width: 650px;
         
     }
+   
     .presentacion h3{
-        font-size: 4vh;
+        font-size: 1.75rem;
         text-align: center;
     }
     .presentacion p {
         font-size: 1.5rem;
     }
-    
-
 }
 
 /*PRODUCTOS*/
@@ -216,6 +251,7 @@ header ul li {
 
 }
 
+/* para entregar el tp sacar esto*/
 
 #tarjetaCarrusel-1{ 
     background-color: rgb(207, 176, 236);
@@ -293,11 +329,39 @@ img {
         padding-bottom: 0.5rem;
     }
     .descr p{
+        font-size: 0.75rem;
         padding-bottom: 1rem;
     }
-    
-
-    
  
 }
 
+/*====EQUIPO===*/
+.equipo h3{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.img--equipo{
+    width: 100%;
+    height: 100%;
+}
+
+.miembro--productos{
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .equipo {
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .img--equipo{
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1200px) and (orientation:landscape) {
+    
+}
