@@ -104,7 +104,7 @@ header ul li {
 
 /* PORTAFOLIO*/
 
-.portafolio, .inicio, .productos, .equipo{
+.portafolio, .inicio, .productos, .equipo, .contacto{
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ header ul li {
     gap:2rem;
 
 }
-.titulo--inicio, .titulo--productos, .titulo--equipo{
+.titulo--inicio, .titulo--productos, .equipo_titulo, .contacto_titulo{
     padding: 1.5rem;
     font-size:2rem;
     text-align: center;
@@ -206,24 +206,26 @@ header ul li {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr 40vh 1fr;
-        gap: 1rem;
+        gap: 0rem;
     }
     .presentacion{
         grid-row: 2/3;
-        padding: 3rem;
+        padding: 1.5rem;
     }
     .img--inicio{
         height: 100%;
         max-height: 400px;
         max-width: 650px;
-        
+    }
+    .titulo--inicio{
+        padding-bottom: 0rem;
     }
    
     .presentacion h3{
         font-size: 1.75rem;
         text-align: center;
     }
-    .presentacion p {
+    .presentacion p ,.equipo_miembro p{
         font-size: 1.5rem;
     }
 }
@@ -339,7 +341,7 @@ img {
     }
     .descr h3{
         padding-top: 1rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 1rem;
     }
     .descr p{
         font-size: 0.75rem;
@@ -349,32 +351,85 @@ img {
 }
 
 /*====EQUIPO===*/
-.equipo h3{
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 2rem;
-}
 
-.img--equipo{
+.equipo_miembro{
+    background-color: white;
+    border: 1px solid rgb(182, 178, 178);
+    padding: 1.5rem;
     width: 100%;
     height: 100%;
+    max-width: 350px;
+   
+}
+.equipo_miembro img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(182, 178, 178);
+}
+.equipo_miembro h3{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem
 }
 
-.miembro--productos{
-    padding: 2rem;
+.equipo_miembro h4{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.equipo_miembro p{
+    font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
-    .equipo {
-        padding: 4rem;
+    .equipo{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    .img--equipo{
-        max-width: 500px;
+    .equipo.miembro{
+        max-width: none;
     }
+
 }
 
 @media (min-width: 1200px) and (orientation:landscape) {
-    
+    .equipo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .miembro-especial{
+        grid-column: 2/3;
+    }   
 }
+
+
+/*SECCION CONTACTO*/
+
+.contacto_form, .contacto ul{
+   border: 1px solid rgb(182, 178, 178);
+   padding: 1rem;
+}
+
+.contacto_form form{
+    padding: 0.25rem;
+}
+
+.contacto_form{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .contacto{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 10vh;
+        gap: 1rem;
+    }
+}
+@media (min-width: 1200px) and (orientation:landscape) {
+    .contacto inframe{
+        grid-column: 1/3;
+    }
+}
+    
