@@ -112,7 +112,7 @@ header ul li {
     gap:2rem;
 
 }
-.titulo--inicio, .titulo--productos, .equipo_titulo, .contacto_titulo{
+.titulo--inicio, .titulo--productos, .equipo_titulo{
     padding: 1.5rem;
     font-size:2rem;
     text-align: center;
@@ -405,31 +405,109 @@ img {
 
 
 /*SECCION CONTACTO*/
+.contacto_titulo h2{
+    padding: 1.5rem;
+    font-size:2rem;
+    text-align: center;
 
-.contacto_form, .contacto ul{
-   border: 1px solid rgb(182, 178, 178);
-   padding: 1rem;
 }
-
-.contacto_form form{
-    padding: 0.25rem;
-}
-
-.contacto_form{
+.contacto a{
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
     width: 100%;
+    margin-bottom: 0.5rem;
+    color: black;
+
+}
+
+.contacto a i{
+    color:lightpink;
+    margin-right: 1.25rem;
+
+}
+
+.contacto form input, textarea{
+    width: 100%;
+    max-width: 300px;
+    height: 15px;
+    padding: 1rem;
+    margin-bottom:1rem;
+    margin-top: 0.5rem;
+}
+
+.contacto textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.contacto-mapa1{
+    padding: 1rem;
+}
+.contacto-mapa2{
+    display: none;
+}
+.btn-enviar{
+    font-size: 1rem;
+    border:  solid black;
+    background-color: rgb(255, 230, 234);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all;
 }
 
 @media (min-width: 768px) {
+    .contacto-mapa1{
+        display: none;
+    }
     .contacto{
+        display: flex;
+    }
+    .contacto-mapa2{
+        display: block;
+        padding: 1rem;
+    }
+
+    .contacto form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contacto form input{
+        max-width: none;
+    }
+    .contacto textarea {
+        width: 100%;
+        max-width: none;
+    }
+    .contacto_icons{
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1200px) and (orientation:landscape) {
+    .contacto-mapa1{
+        display: none;
+    }
+
+    .contacto{
+        padding-left: 10vh;
+        padding-right: 10vh;
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 1fr 10vh;
+        grid-template-rows: 40vh 1fr;
         gap: 1rem;
     }
-}
-@media (min-width: 1200px) and (orientation:landscape) {
-    .contacto inframe{
-        grid-column: 1/3;
+
+    .contacto form{
+        grid-row: 1/3;
+    }
+    .contacto_icons{
+        grid-row: 2/3;
     }
 }
-    
+
