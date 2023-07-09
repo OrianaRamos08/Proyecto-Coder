@@ -1,0 +1,56 @@
+/*CARRUSEL*/
+
+#conteitemscarrusel {
+    border: 1px solid rgb(160, 158, 158);
+    width: 350px;
+    height: 450px;
+    max-width: 450px;
+    overflow: hidden;
+}
+
+.itemcarrusel {
+    border: 1px solid black;
+    height: 450px;
+    position: relative;
+}
+
+.tarjetacarrusel {
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.flechascarrusel {
+    position: absolute;
+    top: 0;
+    /*va a tomar su elemento mas cercano padre*/
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*centrarlo con respecto al eje secundario*/
+    justify-content: space-between;
+    /*deje unos pequenos espacios en los costados*/
+    padding: 20px;
+
+}
+
+/* para entregar el tp sacar esto*/
+
+#tarjetacarrusel-1 {
+    background-color: rgb(207, 176, 236);
+}
+
+#tarjetacarrusel-2 {
+    background-color: rgb(250, 181, 156);
+}
+
+#tarjetacarrusel-3 {
+    background-color: rgb(248, 170, 74);
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
