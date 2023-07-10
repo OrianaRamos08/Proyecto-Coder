@@ -3,7 +3,7 @@ $c-gris:solid rgb(182, 178, 178);
 $c-blanco: white;
 $c-rosa:lightpink;
 $c-negro:solid black;
-$c-purple:rgba(255, 147, 133, 0.925);
+$c-rosafooter:rgb(247, 100, 156);;
 
 * {
     margin: 0;
@@ -22,13 +22,14 @@ a {
     text-decoration: none;
     width: 100%;
     margin-bottom: 0.5rem;
-    color: $c-negro;
+    color: solid black;
 }
 
-
 main {
-    background-color: $c-blanco;
     padding: 2rem;
+}
+body{
+    background-color: $c-blanco;
 }
 
 h2 {

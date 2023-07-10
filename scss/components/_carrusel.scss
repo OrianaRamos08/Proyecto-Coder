@@ -15,7 +15,7 @@
 }
 
 .tarjetacarrusel {
-    background-color: aquamarine;
+    background-color: rgb(16, 24, 21);
     height: 100%;
 }
 
@@ -26,13 +26,18 @@
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     /*centrarlo con respecto al eje secundario*/
     justify-content: space-between;
     /*deje unos pequenos espacios en los costados*/
     padding: 20px;
+    
 
 }
+
+
+
 
 
 

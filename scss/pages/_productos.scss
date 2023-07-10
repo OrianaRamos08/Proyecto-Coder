@@ -1,6 +1,6 @@
 /*PRODUCTOS*/
 .section-productos__producto {
-    border: $c-gris;
+    border: 1px $c-gris;
     padding: 1.5rem;
 
     &--descr {
@@ -12,11 +12,11 @@
 
     & .boton {
         font-size: 2rem;
-        border: 1px solid;
+        border: 1px $c-negro;
         background-color: $c-rosa ;
         height: 60px;
         width: 200px;
-        border-radius: 1.2rem;
+        border-radius: 2rem;
         text-align: center;
     }
 
@@ -39,8 +39,8 @@
         grid-template-rows: repeat(2, 1fr);
         gap: 4rem;
         place-items: center;
-
-        &--especial {
+   
+        &__producto--especial {
             grid-column: 2/3;
         }
     }
