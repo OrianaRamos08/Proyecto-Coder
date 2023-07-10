@@ -5,13 +5,13 @@ footer {
     height: 200px;
     padding: 1rem 0;
     padding-top: 1rem;
-    background-color: rgba(253, 22, 253, 0.925);
+    background-color: $c-purple;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
+ 
 .footer__contenedor-icons,
 .footer__contenedor-menu {
     display: flex;
@@ -20,12 +20,11 @@ footer {
     flex-wrap: wrap;
     margin-bottom: 1rem;
 }
-
 .social-icon {
     height: 50px;
     width: 50px;
     border-radius: 50px;
-    border: 1px solid white;
+    border: 1px $c-blanco;
     background-position: center;
     background-size: 40%;
     margin: 1rem;
@@ -33,10 +32,9 @@ footer {
 
 .footer_contenedor-menu {
     list-style-type: none;
-    color: white;
+    color: $c-blanco;
     font-size: 18px;
 }
-
 .menu-item {
     margin: 1rem 1.5rem;
     cursor: pointer;
@@ -48,7 +46,7 @@ footer {
 }
 
 .copyright {
-    color: white;
+    color: $c-blanco;
     opacity: 0.3;
     text-align: center;
 }

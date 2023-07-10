@@ -1,3 +1,10 @@
+/*VARIABLES*/
+$c-gris:solid rgb(182, 178, 178);
+$c-blanco: white;
+$c-rosa:lightpink;
+$c-negro:solid black;
+$c-purple:rgba(253, 22, 253, 0.925);
+
 * {
     margin: 0;
     padding: 0;
@@ -15,11 +22,12 @@ a {
     text-decoration: none;
     width: 100%;
     margin-bottom: 0.5rem;
-    color: black;
+    color: $c-negro;
 }
 
+
 main {
-    background-color: white;
+    background-color: $c-blanco;
     padding: 2rem;
 }
 
@@ -48,12 +56,18 @@ p {
 }
 
 @media (min-width: 768px) {
+    h2{
+        font-size: 3rem;
+    }
     h4{
         font-size: 1.15rem;
     }
 }
 
 @media (min-width: 1200px) and (orientation:landscape) {
+    h2{
+        font-size:3rem
+    }
     h3 {
         font-size: 2rem;
         text-align: center;
@@ -64,6 +78,9 @@ p {
     }
 
     p {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
+
+
+    

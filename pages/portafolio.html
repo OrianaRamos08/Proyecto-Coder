@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Document</title>
 
@@ -12,61 +13,94 @@
 
 <body>
     <header>
-        <div>
-            <h1>GAIA</h1>
-        </div>
-        <div>
-            <form action="">
-                <input type="search" placeholder="Buscar...">
-                <button>Buscar</button>
-            </form>
-        </div>
-
-        <nav>
-            <ul class="barra-de-navegacion">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/portafolio.html">Portafolio</a></li>
-                <li><a href="./pages/equipo.html">Equipo</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+                <a class="navbar-brand fs-1 fw-bold " href="#">GAIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-3" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3" aria-current="page" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3" aria-current="page" href="./pages/equipo.html">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-3" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link fs-3" href="./pages/equipo.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Equipo
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2 border border-danger-subtle" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button
+                            class="btn btn-outline-success border border-danger-subtle p-3 mb-2 bg-danger-subtle text-emphasis-danger"
+                            type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
 
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+            integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+            crossorigin="anonymous"></script>
     </header>
+
 
     <main>
 
+        <h2>Portafolio</h2>
+
         <section class="section-portafolio">
+            <img class="section-portafolio--img-destacada" src="../Img/Nueva carpeta/portafolio1.jpg" alt="">
+            <img src="../Img/Nueva carpeta/portafolio2.jpg" alt="">
+            <img src="../Img/Nueva carpeta/portafolio3.jpg" alt="">
+            <img src="../Img/Nueva carpeta/portafolio4.jpg" alt="">
+            <img src="../Img/Nueva carpeta/portafolio5.jpg" alt="">
 
-            <h2>Portafolio</h2>
+            <video class="section-portafolio__video" src="..//Img/video33.mp4" controls muted></video>
+            <video  src="../Img/video1.mp4" controls muted></video>
+            <video  src="..//Img/video2.mp4" controls muted></video>
+            
+          
 
-            <div class="section-portafolio__fotos">
-                <img  src="../Img/Nueva carpeta/portafolio1.jpg" alt="">
-                <img  src="../Img/Nueva carpeta/portafolio2.jpg" alt="">
-                <img  src="../Img/Nueva carpeta/portafolio3.jpg" alt="">
-                <img  src="../Img/Nueva carpeta/portafolio4.jpg" alt="">
-                <img class="section-portafolio__fotos--destacada" src="../Img/Nueva carpeta/portafolio5.jpg" alt="">
-
-            </div>
-
-            <div class="section-portafolio__videos">
-
-                <video class="section-portafolio__videos--video" src="..//Img/video33.mp4" controls muted></video>
-                <video class="section-portafolio__videos--video" src="../Img/video1.mp4" controls muted></video>
-                <video class="section-portafolio__videos--video" src="..//Img/video2.mp4" controls muted></video>
-                <video class="section-portafolio__videos--video" src="..//Img/video33.mp4" controls muted></video>
-
-            </div>
+            <!--<div class="section-portafolio__videos">
+                <video class="section-portafolio--video" src="..//Img/video33.mp4" controls muted></video>
+                <video class="section-portafolio--video" src="../Img/video1.mp4" controls muted></video>
+                <video class="section-portafolio--video" src="..//Img/video2.mp4" controls muted></video>
+                <video class="section-portafolio--video" src="..//Img/video33.mp4" controls muted></video>
+            </div>-->
 
         </section>
-
-
     </main>
+    <footer>
+        <div class="footer__contenedor-icons">
+            <a class="social-icon" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="social-icon" href=""><i class="fa-brands fa-facebook"></i></a>
+            <a class="social-icon" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="social-icon" href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <ul class="footer__contenedor-menu">
+            <li class="menu-item">Legal</li>
+            <li class="menu-item">Cookies</li>
+            <li class="menu-item">Privacy</li>
+            <li class="menu-item">Refound</li>
+        </ul>
+        <span class="copyright">&copy;2023, Coderhouse. All rights reserved</span>
 
-
-
+    </footer>
 </body>
 
 </html>
