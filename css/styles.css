@@ -86,8 +86,7 @@ footer {
   width: 100%;
   height: 200px;
   padding: 1rem 0;
-  padding-top: 1rem;
-  background-color: rgba(253, 22, 253, 0.925);
+  background-color: rgba(252, 133, 252, 0.925);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,11 +102,11 @@ footer {
   margin-bottom: 1rem;
 }
 
-.social-icon {
+.social-icon  {
   height: 50px;
   width: 50px;
   border-radius: 50px;
-  border: 1px white;
+  border: 1px solid white;
   background-position: center;
   background-size: 40%;
   margin: 1rem;
