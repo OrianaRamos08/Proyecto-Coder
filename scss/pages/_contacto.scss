@@ -45,6 +45,11 @@
     & a i {
         color: $c-rosa;
         margin-right: 1.25rem;
+        font-size: 2rem;
+    }
+    & a{
+        color: black;
+        padding: 0 1rem;
     }
 
     & form input,
@@ -86,6 +91,9 @@
 @media (min-width: 768px) {
     .section-contacto {
         display: flex;
+        & a{
+            font-size: 1.15rem;
+        }
 
         &__mapa1 {
             display: none;
