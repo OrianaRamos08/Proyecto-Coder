@@ -79,13 +79,13 @@
     }
 }
 
-.btn-enviar {
-    font-size: 1rem;
+.boton /*btn-enviar*/ {
+    font-size: 1.5rem;
     border: $c-negro;
-    background-color: $c-rosa;
+    background-color:#ffcbf2;
     width: 100%;
-    max-width: 300px;
-    border-radius: 1.2rem;
+    height: 50px;
+    border-radius: 1rem;
     text-align: center;
     cursor: pointer;
     transition: all;
