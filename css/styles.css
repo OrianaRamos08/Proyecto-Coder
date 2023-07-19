@@ -33,7 +33,7 @@ a {
 }
 
 h1 {
-  padding: 2.5rem;
+  padding: 1.2rem;
   font-size: 2rem;
   text-align: center;
 }
@@ -394,8 +394,8 @@ img {
     padding: 0.5rem;
   }
   .section-inicio img {
-    height: 450px;
-    max-width: 800px;
+    height: 350px;
+    max-width: 500px;
     border: solid rgb(182, 178, 178);
   }
   .section-inicio__img-destacada {
