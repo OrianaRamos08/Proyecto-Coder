@@ -29,8 +29,6 @@
     }
 }
 
-
-
 .section-contacto {
     & a i {
         color: $c-rosa;
@@ -123,9 +121,10 @@
         &__mapa1{
             display: none;
         }
+        /*
         & form{
             grid-row: 1/3;
-        }
+        }*/
         &__icons{
             grid-row: 2/3;
         }
