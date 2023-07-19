@@ -35,24 +35,22 @@
 
     .section-productos {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 4rem;
+        gap: 2rem;
+        overflow: hidden;
         place-items: center;
    
-        &__producto--especial {
-            grid-column: 2/3;
-        }
     }
     
     #conteitemscarrusel {
-        width: 350px;
-        height: 450px;
-        max-width: 550px;
+        width: 100%;
+        height: 550px;
+        max-width: 450px;
     }
 
     .itemcarrusel {
-        height: 450px;
+        height: 100%;
     }
 
 }

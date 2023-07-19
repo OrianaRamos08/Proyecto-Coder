@@ -28,18 +28,7 @@
     }
 }
 
-@media(min-width: 1200px) and (orientation:landscape) {
-    .section {
 
-        &-portafolio,
-        &-inicio,
-        &-productos,
-        &-equipo,
-        &-contacto {
-            padding: 0 8rem 0 8rem;
-        }
-    }
-}
 
 .section-contacto {
     & a i {
@@ -55,7 +44,7 @@
     & form input,
     textarea {
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         height: 30px;
         padding: 1rem;
         margin-bottom: 1rem;
@@ -63,7 +52,7 @@
     }
 
     & textarea {
-        width: 300px;
+        width: 100%;
         height: 150px;
     }
 
