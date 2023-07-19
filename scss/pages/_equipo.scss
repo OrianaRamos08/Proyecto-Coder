@@ -44,12 +44,18 @@
     .section-equipo {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-
         &__miembro{
-            
+            display: flex;
+            flex-direction: column;
+            place-items: center;
+            padding: 0 0 0 0;
+            width: 500px ;
             & img{
-                max-height: none;
+                max-height: 650px;
                 max-width: none;
+            }
+            & p{
+                padding: 0 2rem 0 2rem;
             }
         }
     }

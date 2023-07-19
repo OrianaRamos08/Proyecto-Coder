@@ -357,9 +357,19 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .section-equipo__miembro {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 0 0 0 0;
+    width: 500px;
+  }
   .section-equipo__miembro img {
-    max-height: none;
+    max-height: 650px;
     max-width: none;
+  }
+  .section-equipo__miembro p {
+    padding: 0 2rem 0 2rem;
   }
 }
 /*   INICIO   */
