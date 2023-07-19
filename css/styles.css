@@ -34,7 +34,7 @@ a {
 
 h1 {
   padding: 2.5rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -85,15 +85,16 @@ header nav {
   border-bottom: 1px solid black;
 }
 
+/*
 .container-fluid {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
-
+*/
 /*FOOTER*/
 footer {
   background-color: rgb(247, 100, 156);
-  height: 300px;
+  height: 250px;
   width: 100vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-top: 10px;
@@ -198,18 +199,6 @@ footer {
   color: black;
 }
 
-#tarjetacarrusel-1 {
-  background-color: rgb(207, 176, 236);
-}
-
-#tarjetacarrusel-2 {
-  background-color: rgb(250, 181, 156);
-}
-
-#tarjetacarrusel-3 {
-  background-color: rgb(248, 170, 74);
-}
-
 img {
   width: 100%;
   height: 100%;
@@ -306,7 +295,7 @@ img {
     padding-right: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30vh 1fr;
+    grid-template-rows: 1fr 20vh;
     gap: 1rem;
   }
   .section-contacto__mapa1 {
@@ -382,7 +371,7 @@ img {
   .section-inicio__presentacion {
     grid-column: 1/3;
     grid-row: 3/4;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid rgb(182, 178, 178);
   }
 }
@@ -398,7 +387,7 @@ img {
   }
   .section-inicio__presentacion {
     grid-column: 1/5;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .section-inicio img {
     height: 100%;
@@ -428,12 +417,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 0.5rem;
-    /*
-    & video {
-
-        height: 600px;
-    }*/
+    gap: 2.2rem;
   }
   .section-portafolio img {
     max-height: 800px;
@@ -443,13 +427,6 @@ img {
   .section-portafolio video {
     width: 100%;
   }
-  /*
-  .section-portafolio .img-destacada {
-      max-height: none;
-      grid-column: 2/5;
-      grid-row: 1/3;
-
-  }*/
 }
 /*PRODUCTOS*/
 .section-productos__producto {

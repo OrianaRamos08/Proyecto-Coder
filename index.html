@@ -8,6 +8,7 @@
   <meta name="description"
     content="Una agencia de maquillaje profesional dedicada a realzar tu belleza y resaltar tu estilo único en cualquier momento del dia">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
   <script src="https://kit.fontawesome.com/3895c55056.js" crossorigin="anonymous"></script>
   <title> GAIA - La mejor agencia de maquillaje profesional en Argentina</title>
@@ -54,10 +55,10 @@
 
     <section class="section section-inicio">
 
-      <img src="./Img/inicio4 (2).jpg" alt="foto y sombras en un fondo blanco">
-      <img src="./Img/inicio5 (2).jpg" alt="labiales de frente en un fondo rosa">
+      <img src="./Img/inicio4 (2).jpg" alt="foto y sombras en un fondo blanco" data-aos="flip-down">
+      <img src="./Img/inicio5 (2).jpg" alt="labiales de frente en un fondo rosa" data-aos="flip-down">
 
-      <article class="section-inicio__presentacion">
+      <article class="section-inicio__presentacion" data-aos="flip-up">
         <div>
           <h2> ¡Bienvenidos a GAIA, la agencia de maquillaje que transformará tu
             rostro en una obra de arte con un toque de magia y mucha diversión! </h2>
@@ -70,9 +71,13 @@
           </p>
         </div>
       </article>
-      <img class="section-inicio__img-destacada" src="./Img/inicio1.0.jpg" alt="brocha gruesa con un recipiente circular lleno de pelotas blancas en un fondo rosa">
-      <img src="./Img/inicio2.0.jpg" alt="dos brochas finas con cuatro sombras en fondo rosa">
+      <img class="section-inicio__img-destacada" src="./Img/inicio1.0.jpg" alt="brocha gruesa con un recipiente circular lleno de pelotas blancas en un fondo rosa" data-aos="flip-down">
+      <img src="./Img/inicio2.0.jpg" alt="dos brochas finas con cuatro sombras en fondo rosa" data-aos="flip-down">
 
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </section>
   </main>
   <footer>
