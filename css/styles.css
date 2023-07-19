@@ -33,25 +33,25 @@ a {
 }
 
 h1 {
-  padding: 2.5rem;
-  font-size: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 0.75rem;
   text-align: center;
   padding: 1rem;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 0.5rem;
   text-align: center;
   padding: 1rem;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.5rem;
   text-align: left;
 }
 
@@ -68,17 +68,17 @@ p {
     height: 800px;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.25rem;
     text-align: center;
   }
   h3 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
   p {
-    font-size: 1.65rem;
+    font-size: 0.75rem;
   }
 }
 header nav {
@@ -295,7 +295,7 @@ img {
     padding-right: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 20vh;
+    grid-template-rows: 30vh 15vh;
     gap: 1rem;
   }
   .section-contacto__mapa1 {
