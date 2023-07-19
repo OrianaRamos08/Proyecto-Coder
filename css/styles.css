@@ -220,6 +220,11 @@ img {
     padding: 0 1.5rem 0 1.5rem;
   }
 }
+@media (min-width: 1200px) and (orientation: landscape) {
+  .section-portafolio, .section-inicio, .section-productos, .section-equipo, .section-contacto {
+    padding: 0 0 0 0;
+  }
+}
 .section-contacto a i {
   color: lightpink;
   margin-right: 1.25rem;
