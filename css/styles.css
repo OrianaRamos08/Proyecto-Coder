@@ -362,10 +362,10 @@ img {
     flex-direction: column;
     place-items: center;
     padding: 0 0 0 0;
-    width: 500px;
+    width: 400px;
   }
   .section-equipo__miembro img {
-    max-height: 650px;
+    max-height: 350px;
     max-width: none;
   }
   .section-equipo__miembro p {
