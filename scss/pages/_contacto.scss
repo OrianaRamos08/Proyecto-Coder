@@ -131,7 +131,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 500px 10vh;
-        gap: 0;
+        gap: 0.75rem;
 
         &__mapa1{
             display: none;
