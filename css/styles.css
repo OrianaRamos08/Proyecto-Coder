@@ -11,8 +11,13 @@ html {
   scroll-behavior: smooth;
 }
 
+header {
+  background-color: rgb(255, 221, 226);
+}
+
 main {
   padding-bottom: 1rem;
+  background-color: rgb(253, 253, 239);
 }
 
 body {
@@ -295,7 +300,7 @@ img {
     padding-right: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30vh auto;
+    grid-template-rows: repeat 2, 1fr;
     gap: 1rem;
   }
   .section-contacto__mapa1 {

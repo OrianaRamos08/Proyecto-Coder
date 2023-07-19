@@ -3,8 +3,7 @@ $c-gris:solid rgb(182, 178, 178);
 $c-blanco: white;
 $c-rosa:lightpink;
 $c-negro:solid black;
-$c-rosafooter:rgb(247, 100, 156);;
-
+$c-rosafooter:rgb(247, 100, 156);
 * {
     margin: 0;
     padding: 0;
@@ -15,8 +14,13 @@ $c-rosafooter:rgb(247, 100, 156);;
 html {
     scroll-behavior: smooth;
 }
+
+header{
+    background-color: rgb(255, 221, 226);
+}
 main{
     padding-bottom: 1rem;
+    background-color: rgb(253, 253, 239);
 }
 
 body{
@@ -66,6 +70,7 @@ p {
     h1{
         font-size: 1.75rem;
     }
+  
     h3{
         font-size: 1rem;
     }
