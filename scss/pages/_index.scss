@@ -14,7 +14,7 @@
         max-width: none;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr) 20vh;
+        grid-template-rows: repeat(3, 1fr) ;
         gap: 1rem;
 
         & img {
@@ -36,15 +36,15 @@
         max-width: none;
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 400px 1px 20vh;
-        gap: 0rem;
+        grid-template-rows: 400px 1px 25vh;
+        gap: 1rem;
         padding-bottom: 1rem;
         &__presentacion {
             grid-column: 1/5;
             padding: 0.5rem;
         }
         & img {
-            height: 350px;
+            height: 300px;
             max-width: 500px;
             border: $c-gris;
         }

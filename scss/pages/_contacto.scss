@@ -116,7 +116,7 @@
         padding-right: 10vh;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 30vh 20vh;
+        grid-template-rows: 30vh auto;
         gap: 1rem;
 
         &__mapa1{

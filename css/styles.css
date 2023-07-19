@@ -39,13 +39,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: center;
   padding: 1rem;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 0.75rem;
   text-align: center;
   padding: 1rem;
 }
@@ -295,7 +295,7 @@ img {
     padding-right: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30vh 20vh;
+    grid-template-rows: 30vh auto;
     gap: 1rem;
   }
   .section-contacto__mapa1 {
@@ -366,7 +366,7 @@ img {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) 20vh;
+    grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
   }
   .section-inicio img {
@@ -385,8 +385,8 @@ img {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 400px 1px 20vh;
-    gap: 0rem;
+    grid-template-rows: 400px 1px 25vh;
+    gap: 1rem;
     padding-bottom: 1rem;
   }
   .section-inicio__presentacion {
@@ -394,7 +394,7 @@ img {
     padding: 0.5rem;
   }
   .section-inicio img {
-    height: 350px;
+    height: 300px;
     max-width: 500px;
     border: solid rgb(182, 178, 178);
   }
