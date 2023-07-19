@@ -295,7 +295,7 @@ img {
     padding-right: 10vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 30vh 15vh;
+    grid-template-rows: 30vh 20vh;
     gap: 1rem;
   }
   .section-contacto__mapa1 {
@@ -385,7 +385,7 @@ img {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: 400px 1px 20vh;
     gap: 0rem;
     padding-bottom: 1rem;
   }

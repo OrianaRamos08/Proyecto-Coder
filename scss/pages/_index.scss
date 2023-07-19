@@ -36,7 +36,7 @@
         max-width: none;
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 1fr;
+        grid-template-rows: 400px 1px 20vh;
         gap: 0rem;
         padding-bottom: 1rem;
         &__presentacion {
