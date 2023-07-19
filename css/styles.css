@@ -217,7 +217,7 @@ img {
 
 @media (min-width: 768px) {
   .section-portafolio, .section-inicio, .section-productos, .section-equipo, .section-contacto {
-    padding: 0 4rem 0 4rem;
+    padding: 0 2rem 0 2rem;
   }
 }
 .section-contacto a i {
@@ -412,6 +412,7 @@ img {
   max-height: 400px;
   max-width: 300px;
   min-width: 200px;
+  padding: none;
 }
 .section-portafolio video {
   height: 400px;
@@ -471,11 +472,11 @@ img {
   }
   #conteitemscarrusel {
     width: 100%;
-    height: 550px;
-    max-width: 450px;
+    height: 400px;
+    max-width: 350px;
   }
   .itemcarrusel {
-    height: 100%;
+    height: 400px;
   }
 }
 
