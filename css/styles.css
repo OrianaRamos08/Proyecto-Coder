@@ -7,10 +7,6 @@
 }
 
 /*eliminar los puntitos*/
-html {
-  scroll-behavior: smooth;
-}
-
 header {
   background-color: rgb(255, 221, 226);
 }
@@ -216,6 +212,7 @@ img {
   flex-direction: column;
   place-items: center;
   gap: 2rem;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
@@ -429,7 +426,7 @@ img {
     gap: 2rem;
   }
   .section-portafolio img {
-    max-height: 800px;
+    max-height: 700px;
     min-width: none;
     max-width: none;
   }
