@@ -107,6 +107,7 @@ footer {
   padding-top: 10px;
   color: white;
   bottom: 0;
+  overflow: hidden;
 }
 
 .footer-contenedor {
