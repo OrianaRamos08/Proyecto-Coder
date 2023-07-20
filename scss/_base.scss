@@ -27,7 +27,8 @@ main{
 
 body{
     background-color: $c-blanco;
-    background-color: black
+    background-color: black;
+    overflow: hidden;
 }
 section {
     background-color: aqua;

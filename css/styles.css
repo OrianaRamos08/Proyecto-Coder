@@ -20,6 +20,7 @@ main {
 body {
   background-color: white;
   background-color: black;
+  overflow: hidden;
 }
 
 section {
