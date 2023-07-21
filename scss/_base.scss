@@ -21,14 +21,12 @@ header{
 }
 main{
     padding-bottom: 1rem;
-    /*background-color: rgb(253, 253, 239);*/
-    background-color: red;
+    background-color: rgb(253, 253, 239);
     overflow: hidden;
 }
 
 body{
     background-color: $c-blanco;
-    background-color: black;
 }
 section {
     background-color: aqua;
