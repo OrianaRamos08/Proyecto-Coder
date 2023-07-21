@@ -21,10 +21,6 @@ body {
   background-color: white;
 }
 
-section {
-  background-color: aqua;
-}
-
 ul {
   list-style: none;
 }
@@ -230,7 +226,6 @@ img {
 }
 @media (min-width: 1200px) and (orientation: landscape) {
   .section-portafolio, .section-inicio, .section-productos, .section-equipo, .section-contacto {
-    padding: 0 0 0 0;
     overflow: hidden;
   }
 }
