@@ -15,6 +15,7 @@ main {
   padding-bottom: 1rem;
   /*background-color: rgb(253, 253, 239);*/
   background-color: red;
+  overflow: hidden;
 }
 
 body {
@@ -102,7 +103,7 @@ header nav {
 footer {
   background-color: rgb(247, 100, 156);
   height: 300px;
-  width: 100vw;
+  width: 99vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-top: 10px;
   color: white;
@@ -111,7 +112,7 @@ footer {
 }
 
 .footer-contenedor {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   align-items: center;
   justify-content: center;
