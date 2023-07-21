@@ -15,12 +15,12 @@ main {
   padding-bottom: 1rem;
   /*background-color: rgb(253, 253, 239);*/
   background-color: red;
-  overflow: hidden;
 }
 
 body {
   background-color: white;
   background-color: black;
+  overflow: hidden;
 }
 
 section {
