@@ -18,6 +18,7 @@
     .section-portafolio{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        gap: 0.5rem;
         & img {
             max-height: 450px;
             min-width: none;
