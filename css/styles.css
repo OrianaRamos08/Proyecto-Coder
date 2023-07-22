@@ -171,6 +171,12 @@ footer {
   font-weight: 200;
 }
 
+@media (min-width: 768px) {
+  footer {
+    width: 96vw;
+    overflow: hidden;
+  }
+}
 /*CARRUSEL*/
 .carousel-inner {
   border: 1px solid rgb(182, 178, 178);

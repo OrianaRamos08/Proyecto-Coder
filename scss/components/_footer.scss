@@ -80,3 +80,10 @@ footer {
         font-weight: 200;
     }
 }
+
+@media (min-width: 768px) {
+    footer {
+        width: 96vw;
+        overflow: hidden;
+    }
+}
