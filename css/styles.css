@@ -285,6 +285,7 @@ footer {
   }
   .section-contacto__icons {
     display: flex;
+    flex-direction: row;
   }
 }
 @media (min-width: 1200px) and (orientation: landscape) {

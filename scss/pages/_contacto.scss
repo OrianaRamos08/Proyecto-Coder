@@ -127,6 +127,7 @@
         }
         &__icons{
             display: flex;
+            flex-direction: row;
         }
     }
 }
@@ -147,6 +148,7 @@
             grid-column: 1/2;
         }
         &__icons{
+        
             grid-column: 1/3;
         }
     }
