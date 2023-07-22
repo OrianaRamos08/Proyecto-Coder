@@ -7,6 +7,11 @@
 }
 
 /*eliminar los puntitos*/
+body {
+  background-color: white;
+  background-color: black;
+}
+
 header {
   background-color: #FFE5D9;
 }
@@ -15,10 +20,11 @@ main {
   padding-bottom: 1rem;
   background-color: rgb(253, 253, 239);
   overflow: hidden;
+  background-color: red;
 }
 
-body {
-  background-color: white;
+section {
+  background-color: aqua;
 }
 
 ul {
