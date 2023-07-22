@@ -58,6 +58,9 @@ p {
 }
 
 @media (min-width: 768px) {
+  .section {
+    height: 1100px;
+  }
   h1 {
     font-size: 1.75rem;
   }
