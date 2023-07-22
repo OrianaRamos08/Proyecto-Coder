@@ -237,6 +237,13 @@ footer {
 .section-contacto__mapa2 {
   display: none;
 }
+.section-contacto__icons {
+  display: flex;
+  flex-direction: column;
+}
+.section-contacto__icons a {
+  padding: 1rem;
+}
 
 .boton {
   font-size: 1rem;

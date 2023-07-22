@@ -27,6 +27,7 @@
             padding: 0 1.5rem 0 1.5rem;
             overflow: hidden;
         }
+    
     }
 }
 @media (min-width: 1200px) and (orientation:landscape) {
@@ -75,6 +76,13 @@
 
     &__mapa2 {
         display: none;
+    }
+    &__icons{
+        display: flex;
+        flex-direction: column;
+        & a{
+            padding: 1rem;
+        }
     }
 }
 
