@@ -342,6 +342,10 @@ footer {
   }
   .section-equipo__miembro {
     max-width: none;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 350px;
   }
   .section-equipo__miembro img {
     max-height: 400px;
@@ -354,11 +358,8 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
   .section-equipo__miembro {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
     padding: 0 0 0 0;
-    width: 400px;
+    width: 350px;
   }
   .section-equipo__miembro img {
     max-height: 350px;
