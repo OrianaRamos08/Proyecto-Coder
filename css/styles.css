@@ -96,7 +96,7 @@ header nav {
 /*FOOTER*/
 footer {
   background-color: rgb(247, 100, 156);
-  height: 300px;
+  height: 330px;
   width: 96.5vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-top: 10px;
@@ -164,14 +164,6 @@ footer {
   font-weight: 200;
 }
 
-/*
-@media (min-width:375px){
-    footer {
-        width: 96.7vw;
-        overflow: hidden;
-    }
-}
-*/
 @media (min-width: 768px) {
   footer {
     width: none;
@@ -375,7 +367,7 @@ footer {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) 18vh;
     gap: 1rem;
   }
   .section-inicio img {
@@ -394,7 +386,7 @@ footer {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 400px 1px 25vh;
+    grid-template-rows: 400px 1px 18vh;
     gap: 1rem;
     padding-bottom: 1rem;
   }
