@@ -381,7 +381,7 @@ footer {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr) 30vh;
+    grid-template-rows: repeat(2, 1fr) 35vh;
     gap: 1rem;
   }
   .section-inicio img {
