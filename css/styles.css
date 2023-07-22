@@ -433,7 +433,7 @@ footer {
   .section-portafolio img {
     max-height: 450px;
     min-width: none;
-    max-width: none;
+    max-width: 350px;
   }
   .section-portafolio video {
     width: 100%;
