@@ -12,7 +12,6 @@ footer {
 }
 
 .footer-contenedor {
-    width: 98.75vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,17 +79,25 @@ footer {
         font-weight: 200;
     }
 }
-
+/*
 @media (min-width:375px){
     footer {
-        width: 96.6vw;
+        width: 96.7vw;
         overflow: hidden;
     }
-}
+}*/
 
 @media (min-width: 768px) {
     footer {
         width: 98.3vw;
         overflow: hidden;
     }
+}
+
+@media (min-width:1200px) and (orientation:landscape){
+    footer {
+        width: 98.75vw;
+        overflow: hidden;
+    }
+
 }
