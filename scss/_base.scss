@@ -17,8 +17,6 @@ $c-header:#FFE5D9;
 /*eliminar los puntitos*/
 body{
     background-color: $c-blanco;
-    background-color: black;
-   
 }
 header{
     background-color:$c-header;
@@ -27,13 +25,9 @@ main{
     padding-bottom: 1rem;
     background-color: rgb(253, 253, 239);
     overflow: hidden;
-    background-color: aqua;
+   
     
 }
-section{
-    background-color: red;
-}
-
 
 ul {
     list-style: none
