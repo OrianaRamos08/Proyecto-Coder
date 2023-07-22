@@ -173,7 +173,7 @@ footer {
 
 @media (min-width: 768px) {
   footer {
-    width: 99vw;
+    width: 98.75vw;
     overflow: hidden;
   }
 }
