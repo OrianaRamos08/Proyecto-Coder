@@ -400,7 +400,7 @@ footer {
     max-width: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 400px 1px 18vh;
+    grid-template-rows: 400px 1px 15vh;
     gap: 1rem;
     padding-bottom: 1rem;
   }
