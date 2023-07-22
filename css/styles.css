@@ -221,7 +221,7 @@ footer {
 .section-contacto form input,
 .section-contacto textarea {
   width: 100%;
-  max-width: 350px;
+  /*max-width: 350px;*/
   height: 30px;
   padding: 1rem;
   margin-bottom: 1rem;
