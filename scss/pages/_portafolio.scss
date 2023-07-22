@@ -22,7 +22,7 @@
         & img {
             max-height: 450px;
             min-width: none;
-            max-width: 400px;
+            max-width: none;
         }
         & video{
             width: 100%;
@@ -44,6 +44,10 @@
         
         &__video--especial{
             grid-column: 3/4;
+        }
+        & img {
+            max-height: 500px;
+            max-width: 450px;
         }
     }
   

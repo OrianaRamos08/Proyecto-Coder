@@ -433,7 +433,7 @@ footer {
   .section-portafolio img {
     max-height: 450px;
     min-width: none;
-    max-width: 400px;
+    max-width: none;
   }
   .section-portafolio video {
     width: 100%;
@@ -452,6 +452,10 @@ footer {
   }
   .section-portafolio__video--especial {
     grid-column: 3/4;
+  }
+  .section-portafolio img {
+    max-height: 500px;
+    max-width: 450px;
   }
 }
 /*PRODUCTOS*/
