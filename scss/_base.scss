@@ -64,7 +64,7 @@ h3 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: left;
 }
 
@@ -73,8 +73,14 @@ p {
     h1{
         font-size: 1.75rem;
     }
-  
+    h2{
+        font-size: 1.3rem;
+    }
     h3{
+        font-size: 1rem;
+    }
+     
+    p{
         font-size: 1rem;
     }
 }
