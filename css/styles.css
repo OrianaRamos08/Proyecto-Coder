@@ -9,6 +9,7 @@
 /*eliminar los puntitos*/
 body {
   background-color: white;
+  background-color: black;
 }
 
 header {
@@ -19,6 +20,7 @@ main {
   padding-bottom: 1rem;
   background-color: rgb(253, 253, 239);
   overflow: hidden;
+  background-color: red;
 }
 
 ul {
@@ -93,12 +95,6 @@ header nav {
   border-bottom: 1px solid black;
 }
 
-/*
-.container-fluid {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-*/
 /*FOOTER*/
 footer {
   background-color: rgb(247, 100, 156);
@@ -179,7 +175,7 @@ footer {
 }
 @media (min-width: 1200px) and (orientation: landscape) {
   footer {
-    width: 98.75vw;
+    width: 98.72vw;
     overflow: hidden;
   }
 }
