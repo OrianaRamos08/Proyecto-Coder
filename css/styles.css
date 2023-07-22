@@ -175,7 +175,7 @@ footer {
 }
 @media (min-width: 1200px) and (orientation: landscape) {
   footer {
-    width: 98.73vw;
+    width: 98.7vw;
     overflow: hidden;
   }
 }
