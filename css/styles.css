@@ -9,7 +9,6 @@
 /*eliminar los puntitos*/
 body {
   background-color: white;
-  background-color: black;
 }
 
 header {
@@ -20,7 +19,6 @@ main {
   padding-bottom: 1rem;
   background-color: rgb(253, 253, 239);
   overflow: hidden;
-  background-color: red;
 }
 
 ul {
@@ -33,7 +31,6 @@ a {
   text-decoration: none;
   width: 100%;
   margin-bottom: 0.5rem;
-  color: solid black;
 }
 
 h1 {
