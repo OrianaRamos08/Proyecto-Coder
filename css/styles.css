@@ -442,6 +442,7 @@ footer {
   }
   .section-portafolio video {
     width: 100%;
+    max-height: 450px;
   }
   .section-portafolio__video--especial {
     grid-column: 1/3;
