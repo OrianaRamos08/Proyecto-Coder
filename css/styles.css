@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;*/
 }
 
 /*eliminar los puntitos*/
@@ -61,28 +62,35 @@ p {
   h1 {
     font-size: 1.75rem;
   }
+
   h3 {
     font-size: 1rem;
   }
 }
+
 @media (min-width: 1200px) and (orientation: landscape) {
   .section {
     height: 700px;
   }
+
   h1 {
     font-size: 2rem;
   }
+
   h2 {
     font-size: 1.75rem;
     text-align: center;
   }
+
   h3 {
     font-size: 1.5rem;
   }
+
   p {
     font-size: 1.25rem;
   }
 }
+
 header nav {
   border-bottom: 1px solid black;
 }
@@ -113,12 +121,14 @@ footer {
   flex-direction: column;
   text-align: center;
 }
+
 .footer-contenedor h3 {
   font-size: 1.8rem;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
 }
+
 .footer-contenedor p {
   max-width: 500px;
   margin: 10px auto;
@@ -126,6 +136,7 @@ footer {
   line-height: 28px;
   font-size: 1rem;
 }
+
 .footer-contenedor__social-icon {
   list-style: none;
   width: 400px;
@@ -133,16 +144,20 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   margin: 1rem 0 3rem 0;
 }
+
 .footer-contenedor__social-icon li {
   margin: 0 10px;
 }
+
 .footer-contenedor__social-icon a {
   text-decoration: none;
   color: white;
 }
+
 .footer-contenedor__social-icon a i {
   transition: color 0.4s ease;
 }
+
 .footer-contenedor__social-icon a:hover i {
   color: black;
 }
@@ -153,12 +168,14 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
 .footer-bottom p {
   font-size: 14px;
   word-spacing: 2px;
   text-align: center;
   text-transform: capitalize;
 }
+
 .footer-bottom span {
   text-transform: uppercase;
   opacity: 0.4;
@@ -209,7 +226,11 @@ img {
 }
 
 /*SECCION CONTACTO*/
-.section-portafolio, .section-inicio, .section-productos, .section-equipo, .section-contacto {
+.section-portafolio,
+.section-inicio,
+.section-productos,
+.section-equipo,
+.section-contacto {
   padding: 0 1rem 0 1rem;
   display: flex;
   flex-direction: column;
@@ -219,25 +240,39 @@ img {
 }
 
 @media (min-width: 768px) {
-  .section-portafolio, .section-inicio, .section-productos, .section-equipo, .section-contacto {
+
+  .section-portafolio,
+  .section-inicio,
+  .section-productos,
+  .section-equipo,
+  .section-contacto {
     padding: 0 1.5rem 0 1.5rem;
     overflow: hidden;
   }
 }
+
 @media (min-width: 1200px) and (orientation: landscape) {
-  .section-portafolio, .section-inicio, .section-productos, .section-equipo, .section-contacto {
+
+  .section-portafolio,
+  .section-inicio,
+  .section-productos,
+  .section-equipo,
+  .section-contacto {
     overflow: hidden;
   }
 }
+
 .section-contacto a i {
   color: #ee5cc9;
   margin-right: 1.25rem;
   font-size: 2rem;
 }
+
 .section-contacto a {
   color: black;
   padding: 0 1rem;
 }
+
 .section-contacto form input,
 .section-contacto textarea {
   width: 100%;
@@ -247,13 +282,16 @@ img {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
+
 .section-contacto textarea {
   width: 100%;
   height: 150px;
 }
+
 .section-contacto__mapa1 {
   padding: 1rem;
 }
+
 .section-contacto__mapa2 {
   display: none;
 }
@@ -274,32 +312,40 @@ img {
   .section-contacto {
     display: flex;
   }
+
   .section-contacto a {
     font-size: 1.15rem;
   }
+
   .section-contacto__mapa1 {
     display: none;
   }
+
   .section-contacto__mapa2 {
     display: block;
     padding: 1rem;
   }
+
   .section-contacto form {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .section-contacto form input {
     max-width: none;
   }
+
   .section-contacto textarea {
     width: 100%;
     max-width: none;
   }
+
   .section-contacto__icons {
     display: flex;
   }
 }
+
 @media (min-width: 1200px) and (orientation: landscape) {
   .section-contacto {
     padding-left: 10vh;
@@ -309,16 +355,20 @@ img {
     grid-template-rows: 500px 10vh;
     gap: 0.75rem;
   }
+
   .section-contacto__mapa1 {
     display: none;
   }
+
   .section-contacto form {
     grid-column: 1/2;
   }
+
   .section-contacto__icons {
     grid-column: 1/3;
   }
 }
+
 /*====EQUIPO===*/
 .section-equipo__miembro {
   background-color: #ffcbf2;
@@ -328,13 +378,16 @@ img {
   height: 100%;
   max-width: 300px;
 }
+
 .section-equipo__miembro h2 {
   color: white;
   font-weight: bold;
 }
+
 .section-equipo__miembro h3 {
   color: white;
 }
+
 .section-equipo__miembro img {
   width: 100%;
   height: 100%;
@@ -346,19 +399,23 @@ img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .section-equipo__miembro {
     max-width: none;
   }
+
   .section-equipo__miembro img {
     max-height: 400px;
     max-width: 350px;
   }
 }
+
 @media (min-width: 1200px) and (orientation: landscape) {
   .section-equipo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .section-equipo__miembro {
     display: flex;
     flex-direction: column;
@@ -366,14 +423,17 @@ img {
     padding: 0 0 0 0;
     width: 400px;
   }
+
   .section-equipo__miembro img {
     max-height: 350px;
     max-width: none;
   }
+
   .section-equipo__miembro p {
     padding: 0 2.5rem 0 2.5rem;
   }
 }
+
 /*   INICIO   */
 .section-inicio img {
   width: 100%;
@@ -390,9 +450,11 @@ img {
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
   }
+
   .section-inicio img {
     max-width: none;
   }
+
   .section-inicio__presentacion {
     grid-column: 1/3;
     grid-row: 3/4;
@@ -400,6 +462,7 @@ img {
     border: 1px solid rgb(182, 178, 178);
   }
 }
+
 /*desktop*/
 @media (min-width: 1200px) and (orientation: landscape) {
   .section-inicio {
@@ -410,20 +473,24 @@ img {
     gap: 1rem;
     padding-bottom: 1rem;
   }
+
   .section-inicio__presentacion {
     grid-column: 1/5;
     padding: 0.5rem;
   }
+
   .section-inicio img {
     height: 300px;
     max-width: 500px;
     border: solid rgb(182, 178, 178);
   }
+
   .section-inicio__img-destacada {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 }
+
 /* PORTAFOLIO*/
 .section-portafolio img {
   width: 100%;
@@ -432,6 +499,7 @@ img {
   max-width: 300px;
   min-width: 200px;
 }
+
 .section-portafolio video {
   height: 400px;
 }
@@ -443,26 +511,31 @@ img {
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
   }
+
   .section-portafolio img {
     max-height: 450px;
     min-width: none;
     max-width: 400px;
   }
+
   .section-portafolio video {
     width: 100%;
   }
 }
+
 /*PRODUCTOS*/
 .section-productos__producto {
   border: 1px solid rgb(182, 178, 178);
   padding: 1.5rem;
 }
+
 .section-productos__producto--descr {
   font-size: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .section-productos__producto .boton {
   font-size: 1rem;
   border: 1px solid black;
@@ -479,6 +552,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 @media (min-width: 1200px) and (orientation: landscape) {
   .section-productos {
     display: grid;
@@ -488,11 +562,13 @@ img {
     overflow: hidden;
     place-items: center;
   }
+
   #conteitemscarrusel {
     width: 100%;
     height: 400px;
     max-width: 300px;
   }
+
   .itemcarrusel {
     height: 400px;
   }
