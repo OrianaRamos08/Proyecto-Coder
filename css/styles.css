@@ -177,15 +177,14 @@ footer {
         overflow: hidden;
     }
 }
-
-@media (min-width: 768px) {
-    footer {
-        width: none;
-        width: 98.3vw;
-        overflow: hidden;
-    }
-}
 */
+@media (min-width: 768px) {
+  footer {
+    width: none;
+    width: 98.3vw;
+    overflow: hidden;
+  }
+}
 @media (min-width: 1200px) and (orientation: landscape) {
   footer {
     width: 98.75vw;
