@@ -6,6 +6,9 @@
     height: 450px;
     max-width: 450px;
     overflow: hidden;
+    & img {
+        height: 450px;
+    }
     
 }
 

@@ -173,6 +173,9 @@ footer {
   max-width: 450px;
   overflow: hidden;
 }
+.carousel-inner img {
+  height: 450px;
+}
 
 .itemcarrusel {
   border: 1px solid black;
