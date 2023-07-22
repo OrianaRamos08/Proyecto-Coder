@@ -25,7 +25,6 @@ ul {
   list-style: none;
 }
 
-/* eliminar los linkeable*/
 a {
   font-size: 1rem;
   text-decoration: none;
@@ -369,7 +368,6 @@ footer {
   border: 1px solid rgb(182, 178, 178);
 }
 
-/*tablet*/
 @media (min-width: 768px) {
   .section-inicio {
     max-width: none;
@@ -388,7 +386,6 @@ footer {
     border: 1px solid rgb(182, 178, 178);
   }
 }
-/*desktop*/
 @media (min-width: 1200px) and (orientation: landscape) {
   .section-inicio {
     max-width: none;
@@ -463,35 +460,6 @@ footer {
   border: 1px solid rgb(182, 178, 178);
   padding: 1.5rem;
 }
-.section-productos__producto #conteitemscarrusel {
-  border: 1px solid rgb(160, 158, 158);
-  width: 500px;
-  height: 450px;
-  max-width: 350px;
-  overflow: hidden;
-}
-.section-productos__producto .itemcarrusel {
-  border: 1px solid black;
-  height: 600px;
-  position: relative;
-}
-.section-productos__producto .tarjetacarrusel {
-  background-color: aquamarine;
-  height: 100%;
-}
-.section-productos__producto .flechascarrusel {
-  position: absolute;
-  top: 0;
-  /*va a tomar su elemento mas cercano padre*/
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  /*centrarlo con respecto al eje secundario*/
-  justify-content: space-between;
-  /*deje unos pequenos espacios en los costados*/
-}
 .section-productos__producto--descr {
   font-size: 2rem;
   display: flex;
@@ -522,14 +490,6 @@ footer {
     gap: 2rem;
     overflow: hidden;
     place-items: center;
-  }
-  #conteitemscarrusel {
-    width: 100%;
-    height: 400px;
-    max-width: 250px;
-  }
-  .itemcarrusel {
-    height: 400px;
   }
 }
 
